@@ -1,0 +1,20 @@
+# dependências
+node_modules/
+
+# segredos — NUNCA versionar
+.env
+.env.*
+!.env.example
+
+# build / cache do Hardhat
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+
+# sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
